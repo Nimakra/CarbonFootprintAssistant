@@ -2,7 +2,7 @@
 
 ## Overview
 
-Welcome to the Carbon Footprint Asistant and Tracker , a very powerful and versatile tool that is designed to help users track and manage their carbon emissions. In line with the Sustainable Development Goals, this application goes beyond simple calculations by offering personalized recommendations, secure data storage, historical insights, detailed reports and many more!.
+Welcome to the Carbon Footprint Assistant and Tracker, a very powerful and versatile tool that is designed to help users track and manage their carbon emissions. In line with the Sustainable Development Goals, this application goes beyond simple calculations and tracking by offering personalized recommendations, secure data storage, historical insights, detailed reports, and many more!
 
 ## Main Features
 - Internet Identity for secure login on the ICP
@@ -34,7 +34,7 @@ Welcome to the Carbon Footprint Asistant and Tracker , a very powerful and versa
 
 ### Prerequisites
 
-Follow these instructions from the Azle Book [to install all the required tools and set up your environment](https://demergent-labs.github.io/azle/installation.html). If you have already installed the required tools, you can skip this step.
+Follow these instructions from the Azle Book [to install all the required tools and set up your environment](https://demergent-labs.github.io/azle/installation.html). You can skip this step if you have already installed the required tools.
 After you have installed the required tools, you can move on to the next step.
 
 ### Installation
@@ -60,11 +60,13 @@ After you have installed the required tools, you can move on to the next step.
 ### Calculate Emissions
 Calculates the emissions for a specific activity and stores the record securely.
 ### Get Total Emissions
-Retrieves the total emissions for a user..
+Retrieves the total emissions for a user.
+### Compare Emissions
+Compares user emissions with benchmark data.
 ### Get Personalized Recommendations
-Getsthe personalized recommendations based on the user's emission activity.
+Gets personalized recommendations based on the user's emission activity.
 ### Generate Report
-Generates a very comprehensive report for a user that includes the total emissions and the personalized recommendations.
+Generates a very comprehensive report for a user that includes the total emissions and personalized recommendations.
 ### Get Emissions by Activity Type
 Retrieves the emission records for a user based on the activity types of that user.
 
@@ -76,3 +78,8 @@ Retrieves the emission records for a user based on the activity types of that us
 - EnvironmentalFactors: Records environmental factors that affect emissions.
 - ActivityType: Describes different types of activities that contribute to emissions.
 - UserActivityHistory: Maintains a history of emissions for each user.
+- BenchmarkData: 
+- BenchmarkData: Compares user emissions with benchmark data
+
+
+# Happy Coding!
