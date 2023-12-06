@@ -42,6 +42,7 @@ After you have installed the required tools, you can move on to the next step.
 1. **Clone the repository:**
    ```bash
    https://github.com/Nimakra/CarbonFootprintAssistant.git
+   cd CarbonFootprintAssistant
 
 2. **Install dependencies:**
    ```bash
