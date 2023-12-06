@@ -41,7 +41,7 @@ After you have installed the required tools, you can move on to the next step.
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/carbon-footprint-calculator.git
+   https://github.com/Nimakra/CarbonFootprintAssistant.git
 
 2. **Install dependencies:**
    ```bash
