@@ -78,7 +78,6 @@ Retrieves the emission records for a user based on the activity types of that us
 - EnvironmentalFactors: Records environmental factors that affect emissions.
 - ActivityType: Describes different types of activities that contribute to emissions.
 - UserActivityHistory: Maintains a history of emissions for each user.
-- BenchmarkData: 
 - BenchmarkData: Compares user emissions with benchmark data
 
 
