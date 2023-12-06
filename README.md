@@ -34,7 +34,7 @@ Welcome to the Carbon Footprint Asistant and Tracker , a very powerful and versa
 
 ### Prerequisites
 
-Follow these instructions from the Azle Book to install all the required tools and set up your environment. If you have already installed the required tools, you can skip this step.
+Follow these instructions from the Azle Book [to install all the required tools and set up your environment](#https://demergent-labs.github.io/azle/installation.html). If you have already installed the required tools, you can skip this step.
 After you have installed the required tools, you can move on to the next step.
 
 ### Installation
