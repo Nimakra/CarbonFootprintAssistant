@@ -1,0 +1,12 @@
+service: () -> {
+    calculateEmissions: (text, text, nat64, text) -> (variant {Ok:record {id:principal; activityType:text; emissions:nat64; date:text; description:text}; Err:text});
+    compareEmissions: () -> (variant {Ok:text; Err:text}) query;
+    generateReport: () -> (variant {Ok:text; Err:text}) query;
+    generateUserActivityHistory: (text, vec record {id:principal; activityType:text; emissions:nat64; date:text; description:text}) -> (variant {Ok:record {"principal":principal; activityType:text; history:vec record {id:principal; activityType:text; emissions:nat64; date:text; description:text}}; Err:text});
+    generateUserSettings: (text, bool) -> (variant {Ok:record {notificationsEnabled:bool; "principal":principal; preferredUnits:text}; Err:text});
+    getEmissionsRecords: () -> (variant {Ok:vec record {id:principal; activityType:text; emissions:nat64; date:text; description:text}; Err:text}) query;
+    getHistoricalData: (text) -> (variant {Ok:vec nat64; Err:text}) query;
+    getRecommendations: (nat64) -> (variant {Ok:vec text; Err:text}) query;
+    getTotalEmissions: () -> (variant {Ok:nat64; Err:text}) query;
+    getUserSettings: () -> (variant {Ok:record {notificationsEnabled:bool; "principal":principal; preferredUnits:text}; Err:text}) query;
+}
