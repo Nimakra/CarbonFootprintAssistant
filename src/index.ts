@@ -381,14 +381,14 @@ export default Canister({
       
 }); 
 
-// Helper function to calculate emissions for an activity based on the provided formula emissions = activityRate x activityEmissionsFactor x (1- activityEmmissionReduction/100)
+// Helper function to calculate the emissions for an activity based on the formula: emissions = activityRate x activityEmissionsFactor x (1- activityEmmissionReduction/100)
 function calculateEmissionsForActivity(activityType: ActivityType): nat64 {
 
   const emissions = BigInt(activityType.activityRate) * 
   BigInt(activityType.activityEmissionsFactor * 100) * 
   (1n - BigInt(activityType.activityEmmissionReduction) / 100n) / 100n;
 
-  // Ensuring the result is a non-negative integer
+  // Ensure the result is a non-negative integer
   return BigInt(Math.max(0, Math.round(Number(emissions))));
 }
 
